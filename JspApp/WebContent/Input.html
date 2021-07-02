@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register Page</title>
+<style>
+Body {
+	font-family: Calibri, Helvetica, sans-serif;
+	background-color: white;
+}
+
+button {
+	background-color: gold;
+	width: auto;
+	color: black;
+	padding: 15px;
+	margin: 10px 0px;
+	border: none;
+	cursor: pointer;
+}
+
+form {
+	background-color: gold;
+	border: 3px solid gold;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+	width: auto;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid gold;
+	box-sizing: border-box;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	margin: 10px 50px;
+}
+
+.container {
+	padding: 50px;
+	background-color: red;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+</head>
+<body>
+<body>
+
+
+	<h1>Boys and Girls its time to Register</h1>
+	<form action="Welcome.jsp" >
+	
+		<div class="container">
+	 <br>
+	 
+			Enter your name:<input type="text" name="uname" required> <br>
+			<br>
+			Enter your age:<input type="password"	name="age" required><br>
+		 <br>
+			<button type="submit">Submit</button><br>
+			
+		</div>
+	</form>
+</html>
